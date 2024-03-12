@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+  width: 100%;
+  background: #050505;
+}
+.message-div {
+  margin-top: 300px;
+  width: 300px;
+  height: 300px;
+  background-color: #313338;
+}
+.time {
+  display: inline;
+  font-size: 0.75rem;
+  color: #989aa2;
+  line-height: 1.375rem;
+  font-weight: 500;
+}
+.message {
+    height: 100vh;
+    color: white;
+    font-weight: 200;
+    font-size: 1rem;
+    display: flex;
+    top: 46%;
+    margin-left: 92px;
+    margin-right: 17px;
+    margin-top: 1px;
+    white-space: pre-wrap;
+    white-space: break-spaces;
+    word-wrap: break-word;
+}
+.username {
+    
+    display: inline;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.375rem;
+    display: inline;
+    vertical-align: baseline;
+    position: relative;
+    overflow: hidden;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    background-color: #313338;
+}
